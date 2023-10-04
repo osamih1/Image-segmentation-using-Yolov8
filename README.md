@@ -4,7 +4,7 @@ This project is about building an image segmentation model trained on a custom d
 
 1. From data_collection_and_preperation create 2 sub directories one called initial_data/train for the training data and the other called initial_data/val for the validation data.
 
-2. Download the segmented dataset from [here](https://storage.googleapis.com/openimages/web/download_v7.html#download-manually), then place each subset in its corresponding one initial_data/train or initial_data/val.
+2. Download the segmented dataset from [here](https://storage.googleapis.com/openimages/web/download_v7.html#download-manually), then place each subset in its corresponding one (initial_data/train or initial_data/val).
 
 3. Execute create_images_file.py file to get the list of images to download for your segmenation task.
 
