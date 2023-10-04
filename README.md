@@ -10,7 +10,7 @@ This project is about building an image segmentation model trained on a custom d
 
 4. In terminal run this command to download images: 
 
-    ```python data_collection_and_preperation/downloader.py images_file --download_folder=data_collection_and_preperation/images```
+   ```python data_collection_and_preperation/downloader.py images_file --download_folder=data_collection_and_preperation/images```
 
 5. Execute create_masks.py to get the mask of all the images inside masks folder.
 
