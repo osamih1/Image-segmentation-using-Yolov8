@@ -9,12 +9,13 @@ This project is about building an image segmentation model trained on a custom d
 4. Execute create_images_file.py file to get the list of images to download for your segmenation task.
 
 5. In terminal run this command to download images: 
-  ```python data_collection_and_preperation/downloader.py images_file --download_folder=data_collection_and_preperation/images```
 
-6. Execute create_masks.py to get the mask of all the images inside masks folder.
+    ```python data_collection_and_preperation/downloader.py images_file --download_folder=data_collection_and_preperation/images```
 
-7. Execute masks_to_polygons.py to get the polygons of the mask images inside the labels folder.
+7. Execute create_masks.py to get the mask of all the images inside masks folder.
 
-8. Execute create_dataset_yolo_fromat.py to get the datataset in the format needed to train the YOLOv8-seg model
+8. Execute masks_to_polygons.py to get the polygons of the mask images inside the labels folder.
 
-9. Execute train.py to train the yolov8-seg model.
+9. Execute create_dataset_yolo_fromat.py to get the datataset in the format needed to train the YOLOv8-seg model
+
+10. Execute train.py to train the yolov8-seg model.
