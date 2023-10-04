@@ -6,7 +6,7 @@ This project is about building an image segmentation model trained on a custom d
 
 3. From data_collection_and_preperation create 2 sub directories one called initial_data/train for the training data and the other called initial_data/val for the validation data.
 
-4. Run create_images_file.py file to get the list of images to download for your segmenation task.
+4. Execute create_images_file.py file to get the list of images to download for your segmenation task.
 
 5. In terminal run this command to download images: 
 python data_collection_and_preperation/downloader.py images_file --download_folder=data_collection_and_preperation/images
