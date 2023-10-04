@@ -1,3 +1,2 @@
 ultralytics
 boto3
-opencv-python
