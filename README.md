@@ -1,5 +1,5 @@
 # Image-segmentation-using-Yolov8
-This project is about building an image segmentation model trained on a custom dataset (ducks dataset) using Yolov8.
+This project is about building an image segmentation model trained on a custom dataset (bottles dataset) using Yolov8.
 ## Steps to follow
 
 1. From data_collection_and_preperation create 2 sub directories one called initial_data/train for the training data and the other called initial_data/val for the validation data.
